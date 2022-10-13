@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/online"
+    android:padding="10dp"
+    tools:context=".OnlineShop">
+
+
+    <Button
+        android:id="@+id/rokomariId"
+        android:layout_width="256dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="20dp"
+        android:background="#008080"
+        android:padding="5dp"
+        android:text="Rokomari"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/boibazarId"
+        android:layout_width="256dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="20dp"
+        android:background="#008080"
+        android:padding="5dp"
+        android:text="BoiBazar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bookshopbdId"
+        android:layout_width="256dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="20dp"
+        android:background="#008080"
+        android:padding="5dp"
+        android:text="Bookshopbd"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/eboigharId"
+        android:layout_width="256dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="20dp"
+        android:background="#008080"
+        android:padding="5dp"
+        android:text="E-Boighar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/boikhataId"
+        android:layout_width="256dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="20dp"
+        android:background="#008080"
+        android:padding="5dp"
+        android:text="boikhata"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

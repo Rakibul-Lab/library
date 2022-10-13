@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eterces.mybauet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.eterces.mybauet.AdminUploads"
+            android:label="@string/actvty_varsitybk"
+            android:parentActivityName="com.eterces.mybauet.VarsityBooks" />
+        <activity
+            android:name="com.eterces.mybauet.AdminPanel"
+            android:label="@string/actvty_adminp" />
+        <activity
+            android:name="com.eterces.mybauet.AdminLogIn"
+            android:label="@string/actvty_adminp" />
+        <activity
+            android:name="com.eterces.mybauet.Webview"
+            android:label="@string/app_name"
+            android:parentActivityName="com.eterces.mybauet.OnlineShop" />
+        <activity
+            android:name="com.eterces.mybauet.VarsityBooks"
+            android:label="@string/actvty_varsitybk"
+            android:parentActivityName="com.eterces.mybauet.MainActivity" />
+        <activity
+            android:name="com.eterces.mybauet.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.eterces.mybauet.QuestionBank"
+            android:label="@string/actvty_qntbk"
+            android:parentActivityName="com.eterces.mybauet.MainActivity" />
+        <activity
+            android:name="com.eterces.mybauet.OnlineShop"
+            android:label="@string/actvty_onlinshop"
+            android:parentActivityName="com.eterces.mybauet.MainActivity" />
+        <activity
+            android:name="com.eterces.mybauet.Splash"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

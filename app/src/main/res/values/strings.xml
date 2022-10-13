@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mybauet</string>
+    <string name="actvty_varsitybk">Versity Books</string>
+    <string name="actvty_qntbk">Questions Bank</string>
+    <string name="actvty_onlinshop">Online Shop</string>
+    <string name="actvty_adminp">Admin Panel</string>
+
+</resources>

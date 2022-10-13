@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1066572962841",
+    "firebase_url": "https://my-bauet-dd29e-default-rtdb.firebaseio.com",
+    "project_id": "my-bauet-dd29e",
+    "storage_bucket": "my-bauet-dd29e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066572962841:android:ccfde57d4498adebabde88",
+        "android_client_info": {
+          "package_name": "com.eterces.mybauet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066572962841-n7f17baqp8vuf9l7p9ghrgppnvj4nlm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eterces.mybauet",
+            "certificate_hash": "658e8d2fd69d2f4d98af7fdacf70d40f48d8377a"
+          }
+        },
+        {
+          "client_id": "1066572962841-7t63g0ch3vgfhd97g7qq3se25ctq6gjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASE5D8-PX06_fX6KxjN9w28KqAwffvRKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066572962841-7t63g0ch3vgfhd97g7qq3se25ctq6gjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
